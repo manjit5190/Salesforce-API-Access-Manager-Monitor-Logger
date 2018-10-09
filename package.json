@@ -1,0 +1,24 @@
+{
+	"name": "sfaccessmanager",
+	"version": "1.0.0",
+	"description": "Access manager for provisioning salesforce resources",
+	"main": "index.js",
+	"scripts": {
+		"test": "node index.js",
+		"upload": "upload_helper.bat"
+	},
+	"keywords": [
+		"sf",
+		"access",
+		"manager"
+	],
+	"dependencies": {
+		"axios": "^0.18.0"
+	},
+	"author": "Manjit Singh",
+	"license": "ISC",
+	"devDependencies": {
+		"dynamodb-doc": "^1.0.0",
+		"aws-sdk": "^2.328.0"
+	}
+}
